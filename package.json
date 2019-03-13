@@ -1,0 +1,13 @@
+{
+  "name": "now-next-example-builder-fixture",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "now-build": "rm -rf ./dist && mkdir ./dist && echo hiya >> ./dist/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1"
+  }
+}
